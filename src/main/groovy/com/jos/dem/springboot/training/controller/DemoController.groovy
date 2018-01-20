@@ -1,14 +1,14 @@
 package com.jos.dem.springboot.training.controller
 
-import org.springframework.web.bind.annotation.RestController
+import org.springframework.stereotype.Controller
 import org.springframework.web.bind.annotation.RequestMapping
 
-@RestController
+@Controller
 class DemoController {
 
   @RequestMapping('/')
   String index(){
-    'Hello World!'
+    'index'
   }
 
 }
