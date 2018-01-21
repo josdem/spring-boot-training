@@ -10,7 +10,7 @@ import com.jos.dem.springboot.training.model.Person
 class DemoController {
 
   @RequestMapping('/')
-  String index(){
+  ModelAndView index(){
     Person person = new Person(nickname:'josdem', email:'joseluis.delacruz@gmail.com')
     ModelAndView modelAndView = new ModelAndView('index')
     modelAndView.addObject(person)
