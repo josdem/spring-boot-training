@@ -14,7 +14,7 @@ import org.slf4j.LoggerFactory
 @Component
 class HandlerExceptionImpl implements HandlerExceptionResolver {
 
-  Logger log = LoggrFactory.getLogger(this.class)
+  Logger log = LoggerFactory.getLogger(this.class)
 
   ModelAndView resolveException(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex){
     log.info ex.message
