@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service
 import org.springframework.beans.factory.annotation.Autowired
 
 import com.jos.dem.springboot.mvc.helper.LocaleResolver
-import com.jos.dem.springboot.mvc.services.LocaleService
+import com.jos.dem.springboot.mvc.service.LocaleService
 
 @Service
 class LocaleServiceImpl implements LocaleService {
